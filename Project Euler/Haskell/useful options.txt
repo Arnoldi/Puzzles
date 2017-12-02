@@ -1,0 +1,6 @@
+time in ghci
+:set -s
+
+trace
+import Debug.Trace
+trace("message") (return_value)
